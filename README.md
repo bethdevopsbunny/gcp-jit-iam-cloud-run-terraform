@@ -1,5 +1,10 @@
 ## Just In Time Terraform Module
 
+> [!WARNING]
+> with the release of google cloud [pam](https://cloud.google.com/iam/docs/pam-overview),
+> the jit-access project has taken a new [direction](https://github.com/GoogleCloudPlatform/jit-groups/discussions/451) as many of its original features are now supported natively in google cloud.
+
+
 _[Just In Time](https://cloudnativenow.com/features/just-in-time-permissions-in-microservices-based-applications/)_ permissions are a concept drawn from the _[Principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)_<br>
 A Google Cloud Community group has created [jit-access](https://github.com/GoogleCloudPlatform/jit-access),
 an application that gives users the ability to request additional permissions from a configured list of roles.<br>
